@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIGB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- ici c'est le header de notre site -->
+
+    <header class="cc-navbar navbar navbar-expand-lg navbar-light bg-white fixed-top px-5">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">
+                <img src="./asset/img/WEBMASTERY INNOVATORS.png" alt="" width="auto" height="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" aria-current="page" href="./index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="./service.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="./contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- ici c'est la section du carousel juste apres le header -->
+        <section>
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./asset/img/th.jfif" class="d-block w-100" alt="Image 1">
+                            <div class="container">
+                                <div class="carousel-caption text-start">
+                                    <h1 class="mb-5 poppins-semibold">Nous vous aidons à créer rapidement <br> un site au design unique.
+                                    </h1>
+                                    <p class="mt-5 poppins-regular opacity-75">Vous etes excellent dans votre domaine, vous maitrissez votre sujet,vous vous souciez de vos clients et vous voulez developper votre entreprise.Mais votre site web! Eh bien, il racontre une autre histoire. N'est-ce pas? Changeons cela ensemble. </p>
+                                    <p><a class="btn btn-lg poppins-regular btn-primary" href="./formation.html">Voir
+                                            nos
+                                            programmes</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./asset/img/carrousel2.png" class="d-block w-100" alt="Image 2">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1 class="mb-5 poppins-semibold">Boostez votre stratégie digitale avec nos conseils.
+                                    </h1>
+                                    <p class="mt-5 poppins-regular">Créer un site web au graphisme exceptonnel et avec un expérience utilisateur pensée pour générer des clients.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="./formation.html">Voir nos programmes</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./asset/img/carrousel3.png" class="d-block w-100" alt="Image 3">
+                            <div class="container">
+                                <div class="carousel-caption text-end">
+                                    <h1 class="mb-5 poppins-semibold">Découvrez nos formations pour développer vos
+                                        compétences.</h1>
+                                    <p class="mt-5 poppins-regular">Notre gamme de formations offre une opportunité
+                                        unique
+                                        de développer et
+                                        <br> d'améliorer vos compétences dans divers domaines.
+                                    </p>
+                                    <p><a class="btn btn-lg btn-primary" href="./formation.html">Voir nos programmes</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ici il y a une barre de separation pour annoncer la section Qui sommes nous ? -->
+        <hr class=" mt-5 pt-5 featurette-divider">
+        <!-- ici c'est la section Qui sommes nous ?  -->
+        <section>
+            <div class="container-fluid px-5">
+                <div class="row featurette px-5">
+                    <div class="col-md-6 order-md-2">
+                        <h1 class="pt-3 featurette-heading lh-1 poppins-black">Qui sommes nous ?</h1>
+                        <p class="pt-2 lead poppins-regular"> Nous sommes une entreprise experte dans le
+                             développement de sites web sur mesure, dédiée à la création de solutions 
+                             digitales répondant aux besoins spécifiques de nos clients. Nous concevons 
+                             des sites modernes, intuitifs et optimisés pour tous les dispositifs, qu’il
+                              s’agisse d’ordinateurs, de tablettes ou de smartphones. Chaque projet est 
+                              pensé pour offrir une expérience utilisateur fluide, avec un design soigné 
+                              et des performances techniques irréprochables. Nous réalisons des sites vitrines,
+                              blogs et plateformes complexes, garantissant que chaque site reflète l’identité 
+                              unique de nos clients..</p>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <img src="./asset/img/apropos.png"
+                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid" width="500"
+                            height="500" aria-label="Placeholder: 500x500" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ici c'est la section Nos Performances  -->
+        <section class=" mt-5 ttp py-5">
+            <div class="container">
+                <h2 class="text-center poppins-semibold mb-4">Nos Performances</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class=" ttb rounded-2 text-center">
+                            <div class="card-body">
+                                <h3 class="card-title pt-4 mb-2">Croissance</h3>
+                                <h2 class="poppins-semibold pb-4 ctb">+48%</h2>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ttb rounded-2 text-center">
+                            <div class="card-body">
+                                <h3 class="card-title pt-4 mb-2">Clients</h3>
+                                <h2 class="poppins-semibold ctb pb-4">+27%</h2>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ttb rounded-2 text-center">
+                            <div class="card-body">
+                                <h3 class="card-title pt-4 mb-2">Partenaires</h3>
+                                <h2 class="poppins-semibold ctb pb-4">+77%</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ttb rounded-2 text-center">
+                            <div class="card-body">
+                                <h3 class="card-title pt-4 mb-2">Clients satisfaits</h3>
+                                <h2 class="poppins-semibold ctb pb-4">+99%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ici c'est la section Actualités  -->
+        <section class="px-5">
+            <div class="container-fluid px-5">
+                <h2 class="text-center poppins-semibold mb-4 mt-5 ">Actualités</h2>
+                <div class="d-flex justify-content-between">
+                    <div class="card me-3">
+                        <img src="./asset/img/blog1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rayan se lance dans le développement web tout en poursuivant son
+                                diplôme.</h5>
+                            <p class="card-text">Rayan a toujours été fasciné par le monde du développement web. Il a
+                                passé de nombreuses heures à explorer divers langages de programmation et à créer des
+                                projets innovants.</p>
+                            <button class="btn btn-primary" id="showPopup1">EN SAVOIR PLUS</button>
+                        </div>
+                    </div>
+
+                    <div class="card me-3">
+                        <img src="./asset/img/blog2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nous recrutons un(e) <br> Stagiaire professionnel en Marketing
+                                Digital.</h5>
+                            <p class="card-text">Pour faciliter l’insertion professionnelle des jeunes étudiants en
+                                fin de formation, nous recrutons un(e) Stagiaire professionnel en Marketing Digital.
+                                Poste : Stagiaire Professionnel en Marketing</p>
+                            <button class="btn btn-primary" id="showPopup2">EN SAVOIR PLUS</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./asset/img/blog3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nous recrutons un(e) Stagiaire professionnel en Ressources
+                                Humaines.
+                            </h5>
+                            <p class="card-text">Pour faciliter l’insertion professionnelle des jeunes étudiants en
+                                fin de formation, nous recrutons un(e) Stagiaire professionnel en Ressources
+                                Humaines. Lieu : Cotonou Comment postuler ?</p>
+                            <button class="btn btn-primary" id="showPopup3">EN SAVOIR PLUS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Le pop-up -->
+        <div class="popup-container" id="popupContainer">
+            <div class="popup">
+                <button class="close-btn" id="closePopup">&times;</button>
+                <h3 class="poppins-semibold">Formulaire de demande d'informations</h3>
+                <form id="infoForm">
+                    <div class="form-group">
+                        <label for="name">Nom:</label>
+                        <input type="text" class="form-control mt-2 mb-2" id="name" placeholder="Entrez votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control mt-2 mb-2" id="email" placeholder="Entrez votre email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Numéro de téléphone:</label>
+                        <input type="tel" class="form-control mt-2 mb-3" id="phone"
+                            placeholder="Entrez votre numéro de téléphone">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+        <!--  message de validation de formulaire popup -->
+
+        <div class="popup-message" id="popupMessage">
+            Formulaire envoyé!
+        </div>
+
+
+        <!--  message de validation de formulaire de contact -->
+
+        <div class="popup-message" id="popupMessage3">
+            Formulaire envoyé!
+        </div>
+
+
+        <!-- ici c'est la section de Témoignages  -->
+        <section id="temoignages" class=" mt-5 py-5 yyt">
+            <div class="container-fluid">
+                <h2 class="text-center poppins-semibold text-light  mb-4  ">Témoignages de nos clients</h2>
+                <div id="carouselTemoignages" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="background-color: #e5348a;">
+                                <div class="text-white text-center">
+                                    <p class="card-text pt-5">"Nous avons confié la création de notre site vitrine à cette  entreprise, et nous sommes plus que <br> satisfaits du résultat ! L'équipe a su comprendre nos besoins et les retranscrire à travers un site web moderne et élégant. <br> Leur professionnalisme et leur réactivité tout au long du projet ont été exemplaires. Je recommande vivement leurs services !."</p>
+                                    <p class="testimonial-author pb-5">-- Alice LEGBA --</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="background-color: #e5348a;">
+                                <div class="text-white text-center">
+                                    <p class="card-text pt-5">"Travailler avec cette équipe de développement web a été une véritable expérience positive. <br> Leur expertise technique et leur capacité à offrir des solutions sur mesure ont largement dépassé nos attentes. Le site est non seulement beau, <br> mais aussi performant et facile à utiliser. Nous avons reçu d'excellents retours de nos utilisateurs !"</p>
+                                    <p class="testimonial-author pb-5">-- Babilas AGBLA --</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="background-color: #e5348a;">
+                                <div class="text-white text-center">
+                                    <p class="card-text pt-5">"Notre entreprise avait besoin d’un site web professionnel et performant, et nous n’aurions pas pu <br> trouver de meilleure équipe. Ils ont parfaitement compris notre vision et l'ont transformée en un site exceptionnel, qui reflète parfaitement <br> notre image. Le tout livré dans les délais avec une qualité irréprochable. Nous sommes ravis du résultat !"</p>
+                                    <p class="testimonial-author pb-5">-- Laurent Gangni --</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTemoignages"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTemoignages"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ici c'est la section Nos partenaires  -->
+        <section class="partners bg-primary mt-5 mb-5 px-5">
+            <div class="container-fluid px-5">
+                <h2 class="text-center text-light poppins-semibold pt-5 mb-5">Nos partenaires</h2>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6 col-md-4 col-lg-2 text-center">
+                        <img src="./asset/img/PA1 (1).jfif" class="img-fluid" alt="Partenaire 1">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 text-center">
+                        <img src="./asset/img/PA2 (1).jfif" class="img-fluid" alt="Partenaire 2">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 text-center">
+                        <img src="./asset/img/PA3 (1).jfif" class="img-fluid" alt="Partenaire 3">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 text-center">
+                        <img src="./asset/img/PA4(1).jfif" class="img-fluid" alt="Partenaire 4">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 text-center">
+                        <img src="./asset/img/PA5 (1).jfif" class="img-fluid" alt="Partenaire 5">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 text-center">
+                        <img src="./asset/img/logos_partenaires_eig-51.jpeg" class="img-fluid" alt="Partenaire 5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ici c'est le pied de page de notre site -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 ">
+                    <h5 class="text-white text-start">LIEN RAPIDE</h5>
+                    <ul class="nav flex-column text-start">
+                        <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-white">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="./service.html"
+                                class="nav-link p-0 text-white">SERVUCES</a></li>
+                                <li class="nav-item mb-2">
+                                    <a href="portfolio.html" class="nav-link p-0 text-white">PORTFOLIO</a>
+                                </li>
+                        <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-white">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6">
+                    <!-- formlaire du footer -->
+                    <form id="footerForm">
+                        <h5 class="text-white">Abonnez-vous à notre newsletter</h5>
+                        <p class="text-white">Résumé mensuel de ce qui est nouveau et passionnant de notre part.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Adresse Email</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between  my-4 border-top">
+                <p class="text-white mt-2">&copy; 2024 WEBMASTERY INNOVATORS, Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
